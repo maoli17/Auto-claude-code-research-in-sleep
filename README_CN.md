@@ -146,6 +146,8 @@ Skills 就是普通的 Markdown 文件，fork 后随意改：
 
 ## ⭐ Star History
 
+![GitHub stars](https://img.shields.io/github/stars/wanshuiyin/Auto-claude-code-research-in-sleep?style=social)
+
 [![Star History Chart](https://api.star-history.com/svg?repos=wanshuiyin/Auto-claude-code-research-in-sleep&type=Date)](https://star-history.com/#wanshuiyin/Auto-claude-code-research-in-sleep&Date)
 
 ## License

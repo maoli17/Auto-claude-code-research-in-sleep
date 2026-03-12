@@ -153,6 +153,8 @@ These skills compose into a full research lifecycle. The two workflows can be us
 | 🔍 [`novelty-check`](skills/novelty-check/SKILL.md) | Verify research idea novelty against recent literature before implementing | Yes |
 | 🚀 [`run-experiment`](skills/run-experiment/SKILL.md) | Deploy experiments to local (MPS/CUDA) or remote GPU servers | No |
 | 🎨 [`pixel-art`](skills/pixel-art/SKILL.md) | Generate pixel art SVG illustrations for READMEs, docs, or slides | No |
+| 🔭 [`idea-discovery`](skills/idea-discovery/SKILL.md) | **Workflow 1 pipeline**: research-lit → idea-creator → novelty-check → research-review | Yes |
+| 🏗️ [`research-pipeline`](skills/research-pipeline/SKILL.md) | **Full pipeline**: Workflow 1 → implement → Workflow 2, from direction to submission | Yes |
 
 ---
 
@@ -191,6 +193,8 @@ cp -r skills/research-lit ~/.claude/skills/
 > /run-experiment train.py --lr 1e-4 --epochs 100
 > /analyze-results figures/*.json
 > /monitor-experiment server5
+> /idea-discovery discrete diffusion language models
+> /research-pipeline DLLMs post training
 ```
 
 ### 🌙 Auto-Allow for Overnight Runs (Optional)

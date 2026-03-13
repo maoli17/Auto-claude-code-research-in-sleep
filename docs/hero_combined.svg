@@ -446,175 +446,118 @@
   <g transform="translate(0,600)">
     <rect width="850" height="290" fill="#fafbfc" rx="12"/>
 
-    <!-- CC Pixel Character (left side, writer) -->
-    <g transform="translate(38,52)">
-      <rect x="20" y="42" width="7" height="7" fill="#8B5E3C"/>
-      <rect x="27" y="42" width="7" height="7" fill="#8B5E3C"/>
-      <rect x="34" y="42" width="7" height="7" fill="#8B5E3C"/>
-      <rect x="41" y="42" width="7" height="7" fill="#8B5E3C"/>
-      <rect x="13" y="49" width="7" height="7" fill="#8B5E3C"/>
-      <rect x="20" y="49" width="7" height="7" fill="#8B5E3C"/>
-      <rect x="27" y="49" width="7" height="7" fill="#8B5E3C"/>
-      <rect x="34" y="49" width="7" height="7" fill="#8B5E3C"/>
-      <rect x="41" y="49" width="7" height="7" fill="#8B5E3C"/>
-      <rect x="48" y="49" width="7" height="7" fill="#8B5E3C"/>
-      <rect x="13" y="56" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="20" y="56" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="27" y="56" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="34" y="56" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="41" y="56" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="48" y="56" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="13" y="63" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="20" y="63" width="7" height="7" fill="#333"/>
-      <rect x="27" y="63" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="34" y="63" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="41" y="63" width="7" height="7" fill="#333"/>
-      <rect x="48" y="63" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="13" y="70" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="20" y="70" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="27" y="70" width="7" height="7" fill="#E8967A"/>
-      <rect x="34" y="70" width="7" height="7" fill="#E8967A"/>
-      <rect x="41" y="70" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="48" y="70" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="6" y="77" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="13" y="77" width="7" height="7" fill="#4A9EDA"/>
-      <rect x="20" y="77" width="7" height="7" fill="#4A9EDA"/>
-      <rect x="27" y="77" width="7" height="7" fill="#4A9EDA"/>
-      <rect x="34" y="77" width="7" height="7" fill="#4A9EDA"/>
-      <rect x="41" y="77" width="7" height="7" fill="#4A9EDA"/>
-      <rect x="48" y="77" width="7" height="7" fill="#4A9EDA"/>
-      <rect x="55" y="77" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="13" y="84" width="7" height="7" fill="#4A9EDA"/>
-      <rect x="20" y="84" width="7" height="7" fill="#4A9EDA"/>
-      <rect x="27" y="84" width="7" height="7" fill="#4A9EDA"/>
-      <rect x="34" y="84" width="7" height="7" fill="#4A9EDA"/>
-      <rect x="41" y="84" width="7" height="7" fill="#4A9EDA"/>
-      <rect x="48" y="84" width="7" height="7" fill="#4A9EDA"/>
-      <rect x="16" y="91" width="7" height="7" fill="#444"/>
-      <rect x="23" y="91" width="7" height="7" fill="#444"/>
-      <rect x="37" y="91" width="7" height="7" fill="#444"/>
-      <rect x="44" y="91" width="7" height="7" fill="#444"/>
-    </g>
-    <text x="72" y="163" text-anchor="middle" fill="#4A9EDA" font-size="9px" font-weight="bold">Claude Code</text>
-    <text x="72" y="173" text-anchor="middle" fill="#4A9EDA" font-size="9px" font-weight="bold">(Writer)</text>
+    <!-- Top: Pipeline phase boxes -->
+    <rect x="30" y="12" width="72" height="20" fill="#e8f4fd" stroke="#4a9eda" stroke-width="1" rx="4"/>
+    <text x="66" y="26" text-anchor="middle" font-size="8px" fill="#3a7eba">📐 Plan</text>
+    <line x1="104" y1="22" x2="118" y2="22" stroke="#4a9eda" stroke-width="1" marker-end="url(#ar1)"/>
+    <rect x="122" y="12" width="72" height="20" fill="#e8f4fd" stroke="#4a9eda" stroke-width="1" rx="4"/>
+    <text x="158" y="26" text-anchor="middle" font-size="8px" fill="#3a7eba">📊 Figures</text>
+    <line x1="196" y1="22" x2="210" y2="22" stroke="#4a9eda" stroke-width="1" marker-end="url(#ar1)"/>
+    <rect x="214" y="12" width="72" height="20" fill="#e8f4fd" stroke="#4a9eda" stroke-width="1" rx="4"/>
+    <text x="250" y="26" text-anchor="middle" font-size="8px" fill="#3a7eba">✍️ LaTeX</text>
+    <line x1="288" y1="22" x2="302" y2="22" stroke="#4a9eda" stroke-width="1" marker-end="url(#ar1)"/>
+    <rect x="306" y="12" width="72" height="20" fill="#e8f4fd" stroke="#4a9eda" stroke-width="1" rx="4"/>
+    <text x="342" y="26" text-anchor="middle" font-size="8px" fill="#3a7eba">🔨 Compile</text>
+    <line x1="380" y1="22" x2="394" y2="22" stroke="#4a9eda" stroke-width="1" marker-end="url(#ar1)"/>
+    <rect x="398" y="12" width="84" height="20" fill="#fdf2e8" stroke="#da8a4a" stroke-width="1" rx="4"/>
+    <text x="440" y="26" text-anchor="middle" font-size="8px" fill="#b87a3a">🔄 Improve ×2</text>
 
-    <!-- GPT Pixel Character (right side, reviewer) -->
-    <g transform="translate(149,52)">
-      <rect x="650" y="42" width="7" height="7" fill="#2C2C2C"/>
-      <rect x="657" y="42" width="7" height="7" fill="#2C2C2C"/>
-      <rect x="664" y="42" width="7" height="7" fill="#2C2C2C"/>
-      <rect x="671" y="42" width="7" height="7" fill="#2C2C2C"/>
-      <rect x="643" y="49" width="7" height="7" fill="#2C2C2C"/>
-      <rect x="650" y="49" width="7" height="7" fill="#2C2C2C"/>
-      <rect x="657" y="49" width="7" height="7" fill="#2C2C2C"/>
-      <rect x="664" y="49" width="7" height="7" fill="#2C2C2C"/>
-      <rect x="671" y="49" width="7" height="7" fill="#2C2C2C"/>
-      <rect x="678" y="49" width="7" height="7" fill="#2C2C2C"/>
-      <rect x="643" y="56" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="650" y="56" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="657" y="56" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="664" y="56" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="671" y="56" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="678" y="56" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="643" y="63" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="650" y="63" width="7" height="7" fill="#333"/>
-      <rect x="657" y="63" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="664" y="63" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="671" y="63" width="7" height="7" fill="#333"/>
-      <rect x="678" y="63" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="648" y="62" width="13" height="2" fill="#555"/>
-      <rect x="668" y="62" width="13" height="2" fill="#555"/>
-      <rect x="661" y="63" width="7" height="1" fill="#555"/>
-      <rect x="643" y="70" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="650" y="70" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="657" y="70" width="7" height="7" fill="#D4956A"/>
-      <rect x="664" y="70" width="7" height="7" fill="#D4956A"/>
-      <rect x="671" y="70" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="678" y="70" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="636" y="77" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="643" y="77" width="7" height="7" fill="#74AA63"/>
-      <rect x="650" y="77" width="7" height="7" fill="#74AA63"/>
-      <rect x="657" y="77" width="7" height="7" fill="#74AA63"/>
-      <rect x="664" y="77" width="7" height="7" fill="#74AA63"/>
-      <rect x="671" y="77" width="7" height="7" fill="#74AA63"/>
-      <rect x="678" y="77" width="7" height="7" fill="#74AA63"/>
-      <rect x="685" y="77" width="7" height="7" fill="#FFDAB9"/>
-      <rect x="643" y="84" width="7" height="7" fill="#74AA63"/>
-      <rect x="650" y="84" width="7" height="7" fill="#74AA63"/>
-      <rect x="657" y="84" width="7" height="7" fill="#74AA63"/>
-      <rect x="664" y="84" width="7" height="7" fill="#74AA63"/>
-      <rect x="671" y="84" width="7" height="7" fill="#74AA63"/>
-      <rect x="678" y="84" width="7" height="7" fill="#74AA63"/>
-      <rect x="646" y="91" width="7" height="7" fill="#444"/>
-      <rect x="653" y="91" width="7" height="7" fill="#444"/>
-      <rect x="667" y="91" width="7" height="7" fill="#444"/>
-      <rect x="674" y="91" width="7" height="7" fill="#444"/>
-    </g>
-    <text x="813" y="163" text-anchor="middle" fill="#74AA63" font-size="9px" font-weight="bold">GPT-5.4 xhigh</text>
-    <text x="813" y="173" text-anchor="middle" fill="#74AA63" font-size="9px" font-weight="bold">(Reviewer)</text>
+    <!-- LEFT: LaTeX Editor Window -->
+    <rect x="20" y="45" width="260" height="170" fill="#2d2d2d" rx="6"/>
+    <rect x="20" y="45" width="260" height="14" fill="#3d3d3d" rx="6"/>
+    <rect x="20" y="53" width="260" height="6" fill="#3d3d3d"/>
+    <circle cx="31" cy="52" r="3" fill="#ff5f57"/>
+    <circle cx="41" cy="52" r="3" fill="#febc2e"/>
+    <circle cx="51" cy="52" r="3" fill="#28c840"/>
+    <text x="150" y="53" font-size="6px" fill="#999" text-anchor="middle">paper/main.tex — 8 sections</text>
+    <!-- LaTeX code -->
+    <text x="28" y="74" font-size="8px" fill="#c678dd">\documentclass</text>
+    <text x="106" y="74" font-size="8px" fill="#98c379">{iclr2026_conference}</text>
+    <text x="28" y="86" font-size="8px" fill="#c678dd">\title</text>
+    <text x="52" y="86" font-size="8px" fill="#98c379">{Your Paper Title}</text>
+    <text x="28" y="98" font-size="8px" fill="#555">...</text>
+    <text x="28" y="110" font-size="8px" fill="#c678dd">\section</text>
+    <text x="66" y="110" font-size="8px" fill="#98c379">{Introduction}</text>
+    <text x="28" y="122" font-size="8px" fill="#abb2bf">We propose a novel framework</text>
+    <text x="28" y="134" font-size="8px" fill="#abb2bf">that addresses the key gap...</text>
+    <text x="28" y="146" font-size="8px" fill="#c678dd">\begin</text>
+    <text x="56" y="146" font-size="8px" fill="#98c379">{theorem}</text>
+    <text x="34" y="158" font-size="8px" fill="#e5c07b">Let $f: \mathcal{X} \to \mathcal{Y}$</text>
+    <text x="28" y="170" font-size="8px" fill="#c678dd">\end</text>
+    <text x="46" y="170" font-size="8px" fill="#98c379">{theorem}</text>
+    <text x="28" y="182" font-size="8px" fill="#555">...</text>
+    <text x="28" y="194" font-size="8px" fill="#c678dd">\input</text>
+    <text x="56" y="194" font-size="8px" fill="#98c379">{sections/4_experiments}</text>
+    <text x="28" y="206" font-size="8px" fill="#c678dd">\bibliography</text>
+    <text x="96" y="206" font-size="8px" fill="#98c379">{references}</text>
 
-    <!-- Pipeline phases: plan → figure → write → compile → improve -->
-    <rect x="120" y="15" width="88" height="24" fill="#e8f4fd" stroke="#4a9eda" stroke-width="1.2" rx="5"/>
-    <text x="164" y="31" text-anchor="middle" font-size="9px" fill="#3a7eba">📐 Plan</text>
-    <line x1="210" y1="27" x2="228" y2="27" stroke="#4a9eda" stroke-width="1.5" marker-end="url(#ar2)"/>
+    <!-- CENTER: Score Progression Cards -->
+    <!-- Round 0 (red) -->
+    <rect x="300" y="48" width="230" height="44" fill="#fff5f5" stroke="#e74c3c" stroke-width="1.5" rx="6"/>
+    <text x="312" y="65" font-size="9px" fill="#e74c3c" font-weight="bold">Round 0</text>
+    <text x="450" y="65" font-size="18px" fill="#e74c3c" font-weight="bold" text-anchor="middle">4/10</text>
+    <text x="312" y="82" font-size="7.5px" fill="#999">Overclaims · notation clash · no validation</text>
+    <!-- Arrow down + fix -->
+    <line x1="415" y1="94" x2="415" y2="108" stroke="#4a9eda" stroke-width="1.5" marker-end="url(#ar2)"/>
+    <text x="430" y="104" font-size="7px" fill="#4a9eda" font-weight="bold">🔧 fix</text>
 
-    <rect x="232" y="15" width="88" height="24" fill="#e8f4fd" stroke="#4a9eda" stroke-width="1.2" rx="5"/>
-    <text x="276" y="31" text-anchor="middle" font-size="9px" fill="#3a7eba">📊 Figures</text>
-    <line x1="322" y1="27" x2="340" y2="27" stroke="#4a9eda" stroke-width="1.5" marker-end="url(#ar2)"/>
+    <!-- Round 1 (yellow) -->
+    <rect x="300" y="112" width="230" height="44" fill="#fffbf0" stroke="#f39c12" stroke-width="1.5" rx="6"/>
+    <text x="312" y="129" font-size="9px" fill="#e6890e" font-weight="bold">Round 1</text>
+    <text x="450" y="129" font-size="18px" fill="#e6890e" font-weight="bold" text-anchor="middle">6/10</text>
+    <text x="312" y="146" font-size="7.5px" fill="#999">Softened claims · fixed notation · +Table 2</text>
+    <!-- Arrow down + fix -->
+    <line x1="415" y1="158" x2="415" y2="172" stroke="#4a9eda" stroke-width="1.5" marker-end="url(#ar2)"/>
+    <text x="430" y="168" font-size="7px" fill="#4a9eda" font-weight="bold">🔧 fix</text>
 
-    <rect x="344" y="15" width="88" height="24" fill="#e8f4fd" stroke="#4a9eda" stroke-width="1.2" rx="5"/>
-    <text x="388" y="31" text-anchor="middle" font-size="9px" fill="#3a7eba">✍️ LaTeX</text>
-    <line x1="434" y1="27" x2="452" y2="27" stroke="#4a9eda" stroke-width="1.5" marker-end="url(#ar2)"/>
+    <!-- Round 2 (green) -->
+    <rect x="300" y="176" width="230" height="44" fill="#f0fff0" stroke="#27ae60" stroke-width="1.5" rx="6"/>
+    <text x="312" y="193" font-size="9px" fill="#27ae60" font-weight="bold">Round 2</text>
+    <text x="450" y="193" font-size="18px" fill="#27ae60" font-weight="bold" text-anchor="middle">7/10</text>
+    <text x="312" y="210" font-size="7.5px" fill="#999">+Synthetic validation · stronger limitations ✅</text>
 
-    <rect x="456" y="15" width="88" height="24" fill="#e8f4fd" stroke="#4a9eda" stroke-width="1.2" rx="5"/>
-    <text x="500" y="31" text-anchor="middle" font-size="9px" fill="#3a7eba">🔨 Compile</text>
-    <line x1="546" y1="27" x2="564" y2="27" stroke="#4a9eda" stroke-width="1.5" marker-end="url(#ar2)"/>
+    <!-- RIGHT: PDF Output Stack -->
+    <!-- Shadow pages (round 0 & 1) -->
+    <rect x="568" y="60" width="115" height="148" fill="#eee" stroke="#ccc" stroke-width="1" rx="2" transform="rotate(4, 625, 134)"/>
+    <rect x="566" y="57" width="115" height="148" fill="#f5f5f5" stroke="#bbb" stroke-width="1" rx="2" transform="rotate(-2, 623, 131)"/>
+    <!-- Main page (round 2 final) -->
+    <rect x="564" y="54" width="115" height="148" fill="#fff" stroke="#27ae60" stroke-width="2" rx="2"/>
+    <!-- Title bar -->
+    <rect x="574" y="62" width="95" height="5" fill="#333" rx="1"/>
+    <!-- Authors -->
+    <rect x="584" y="70" width="75" height="3" fill="#aaa" rx="1"/>
+    <!-- Horizontal rule -->
+    <line x1="574" y1="78" x2="669" y2="78" stroke="#ddd" stroke-width="0.5"/>
+    <!-- Abstract text lines -->
+    <rect x="574" y="82" width="95" height="2" fill="#ddd"/>
+    <rect x="574" y="87" width="95" height="2" fill="#ddd"/>
+    <rect x="574" y="92" width="70" height="2" fill="#ddd"/>
+    <!-- Figure placeholder -->
+    <rect x="584" y="100" width="75" height="32" fill="#e8f4fd" stroke="#4a9eda" stroke-width="0.5" rx="1"/>
+    <text x="621" y="119" text-anchor="middle" font-size="7px" fill="#4a9eda">Fig. 1</text>
+    <!-- More text -->
+    <rect x="574" y="138" width="95" height="2" fill="#ddd"/>
+    <rect x="574" y="143" width="95" height="2" fill="#ddd"/>
+    <rect x="574" y="148" width="60" height="2" fill="#ddd"/>
+    <!-- Table placeholder -->
+    <rect x="574" y="156" width="95" height="22" fill="#fdf2e8" stroke="#da8a4a" stroke-width="0.5" rx="1"/>
+    <text x="621" y="170" text-anchor="middle" font-size="7px" fill="#da8a4a">Table 2</text>
+    <!-- More text -->
+    <rect x="574" y="184" width="95" height="2" fill="#ddd"/>
+    <rect x="574" y="189" width="80" height="2" fill="#ddd"/>
+    <!-- Labels -->
+    <text x="621" y="218" text-anchor="middle" font-size="11px" fill="#27ae60" font-weight="bold">main.pdf ✅</text>
+    <text x="621" y="230" text-anchor="middle" font-size="8px" fill="#999">3 versions saved</text>
 
-    <rect x="568" y="15" width="100" height="24" fill="#fdf2e8" stroke="#da8a4a" stroke-width="1.2" rx="5"/>
-    <text x="618" y="31" text-anchor="middle" font-size="9px" fill="#b87a3a">🔄 Improve ×2</text>
+    <!-- Connection lines: editor → scores → PDF -->
+    <line x1="282" y1="135" x2="298" y2="135" stroke="#e67e22" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <line x1="532" y1="135" x2="562" y2="135" stroke="#27ae60" stroke-width="1.5" stroke-dasharray="4,2"/>
 
-    <!-- Row 1: CC writes LaTeX -->
-    <rect x="110" y="55" width="280" height="26" fill="#e8f4fd" stroke="#4a9eda" stroke-width="1.5" rx="8"/>
-    <polygon points="108,67 99,73 108,72" fill="#e8f4fd" stroke="#4a9eda" stroke-width="1.5"/>
-    <rect x="107" y="66" width="3" height="7" fill="#e8f4fd"/>
-    <text x="123" y="72" font-size="13px">✍️ 8 sections written, compiling...</text>
-    <line x1="392" y1="68" x2="465" y2="68" stroke="#4a9eda" stroke-width="2" marker-end="url(#ar2)"/>
+    <!-- GPT-5.4 label near score cards -->
+    <text x="415" y="238" text-anchor="middle" font-size="8px" fill="#74AA63" font-weight="bold">reviewed by GPT-5.4 xhigh</text>
 
-    <!-- Row 2: GPT reviews Round 1 -->
-    <line x1="488" y1="106" x2="420" y2="106" stroke="#da8a4a" stroke-width="2" marker-end="url(#ar2-o)"/>
-    <rect x="490" y="93" width="280" height="26" fill="#fdf2e8" stroke="#da8a4a" stroke-width="1.5" rx="8"/>
-    <polygon points="772,105 781,111 772,110" fill="#fdf2e8" stroke="#da8a4a" stroke-width="1.5"/>
-    <rect x="770" y="104" width="3" height="7" fill="#fdf2e8"/>
-    <text x="503" y="110" font-size="13px">❌ 4/10. Overclaims, notation clash</text>
-
-    <!-- Row 3: CC fixes Round 1 -->
-    <rect x="110" y="131" width="280" height="26" fill="#e8f4fd" stroke="#4a9eda" stroke-width="1.5" rx="8"/>
-    <polygon points="108,143 99,149 108,148" fill="#e8f4fd" stroke="#4a9eda" stroke-width="1.5"/>
-    <rect x="107" y="142" width="3" height="7" fill="#e8f4fd"/>
-    <text x="123" y="148" font-size="13px">🔧 Softened claims, fixed notation</text>
-    <line x1="392" y1="144" x2="465" y2="144" stroke="#4a9eda" stroke-width="2" marker-end="url(#ar2)"/>
-
-    <!-- Row 4: GPT reviews Round 2 -->
-    <line x1="488" y1="182" x2="420" y2="182" stroke="#da8a4a" stroke-width="2" marker-end="url(#ar2-o)"/>
-    <rect x="490" y="169" width="280" height="26" fill="#fdf2e8" stroke="#da8a4a" stroke-width="1.5" rx="8"/>
-    <polygon points="772,181 781,187 772,186" fill="#fdf2e8" stroke="#da8a4a" stroke-width="1.5"/>
-    <rect x="770" y="180" width="3" height="7" fill="#fdf2e8"/>
-    <text x="503" y="186" font-size="13px">🤔 6/10. Add synthetic validation</text>
-
-    <!-- Row 5: CC fixes Round 2 + recompile -->
-    <rect x="110" y="207" width="280" height="26" fill="#e8f4fd" stroke="#4a9eda" stroke-width="1.5" rx="8"/>
-    <polygon points="108,219 99,225 108,224" fill="#e8f4fd" stroke="#4a9eda" stroke-width="1.5"/>
-    <rect x="107" y="218" width="3" height="7" fill="#e8f4fd"/>
-    <text x="123" y="224" font-size="13px">📝 Added §4.5 + recompiled PDF</text>
-    <line x1="392" y1="220" x2="465" y2="220" stroke="#4a9eda" stroke-width="2" marker-end="url(#ar2)"/>
-
-    <!-- Row 6: Final verdict (green) -->
-    <line x1="488" y1="250" x2="420" y2="250" stroke="#4aaa4a" stroke-width="2" marker-end="url(#ar2-g)"/>
-    <rect x="490" y="237" width="280" height="26" fill="#e8fde8" stroke="#4aaa4a" stroke-width="1.5" rx="8"/>
-    <polygon points="772,249 781,255 772,254" fill="#e8fde8" stroke="#4aaa4a" stroke-width="1.5"/>
-    <rect x="770" y="248" width="3" height="7" fill="#e8fde8"/>
-    <text x="503" y="254" font-size="13px" fill="#2a7a2a">✅ 7/10. main.pdf ready! 📄</text>
-
-    <text x="425" y="280" text-anchor="middle" font-size="11px" fill="#bbb" font-style="italic">Workflow 3: Paper Writing — from narrative to polished PDF</text>
+    <!-- Bottom flow + tagline -->
+    <text x="425" y="260" text-anchor="middle" font-size="13px" fill="#ccc">📐 → 📊 → ✍️ → 🔨 → 🔄 → 📄</text>
+    <text x="425" y="278" text-anchor="middle" font-size="11px" fill="#bbb" font-style="italic">Workflow 3: Paper Writing — from narrative to polished PDF</text>
   </g>
 </svg>

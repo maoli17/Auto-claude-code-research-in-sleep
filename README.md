@@ -42,7 +42,7 @@ claude mcp add codex -s user -- codex mcp-server
 
 # 3. Use in Claude Code
 claude
-> /idea-discovery "your research direction"  # Workflow 1: literature → brainstorm → validate
+> /idea-discovery "your research direction"  # Workflow 1 — be specific! not "NLP" but "factorized gap in discrete diffusion LMs"
 > /auto-review-loop                          # Workflow 2: review → fix → re-review overnight
 > /paper-writing "NARRATIVE_REPORT.md"       # Workflow 3: narrative → polished PDF
 > /research-pipeline "your research direction"  # Full pipeline: Workflow 1 → 2 → 3 end-to-end
